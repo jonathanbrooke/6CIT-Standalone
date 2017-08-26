@@ -30,31 +30,31 @@
         {
             this.btn_reset = new System.Windows.Forms.Button();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.cb_q6 = new System.Windows.Forms.ComboBox();
             this.lbl_q6 = new System.Windows.Forms.Label();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.cb_q5 = new System.Windows.Forms.ComboBox();
             this.lbl_q5 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.cb_q4 = new System.Windows.Forms.ComboBox();
             this.lbl_q4 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.rb4_incorrect = new System.Windows.Forms.RadioButton();
             this.lbl_q3 = new System.Windows.Forms.Label();
+            this.rb3_correct = new System.Windows.Forms.RadioButton();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.txt_memory = new System.Windows.Forms.TextBox();
             this.lbl_memory = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.rb2_incorrect = new System.Windows.Forms.RadioButton();
             this.lbl_q2 = new System.Windows.Forms.Label();
+            this.rb2_correct = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.rb1_incorrect = new System.Windows.Forms.RadioButton();
+            this.rB1_correct = new System.Windows.Forms.RadioButton();
             this.lbl_q1 = new System.Windows.Forms.Label();
             this.btn_Cancel = new System.Windows.Forms.Button();
             this.btn_submit = new System.Windows.Forms.Button();
-            this.rB1_correct = new System.Windows.Forms.RadioButton();
-            this.rb1_incorrect = new System.Windows.Forms.RadioButton();
-            this.rb2_incorrect = new System.Windows.Forms.RadioButton();
-            this.rb2_correct = new System.Windows.Forms.RadioButton();
-            this.rb4_incorrect = new System.Windows.Forms.RadioButton();
-            this.rb3_correct = new System.Windows.Forms.RadioButton();
-            this.cb_q4 = new System.Windows.Forms.ComboBox();
-            this.cb_q5 = new System.Windows.Forms.ComboBox();
-            this.cb_q6 = new System.Windows.Forms.ComboBox();
             this.groupBox7.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -85,6 +85,21 @@
             this.groupBox7.TabIndex = 50;
             this.groupBox7.TabStop = false;
             // 
+            // cb_q6
+            // 
+            this.cb_q6.FormattingEnabled = true;
+            this.cb_q6.Items.AddRange(new object[] {
+            "Correct",
+            "1 Error",
+            "2 Errors",
+            "3 Errors",
+            "4 Errors",
+            "All Incorrect"});
+            this.cb_q6.Location = new System.Drawing.Point(308, 17);
+            this.cb_q6.Name = "cb_q6";
+            this.cb_q6.Size = new System.Drawing.Size(295, 22);
+            this.cb_q6.TabIndex = 3;
+            // 
             // lbl_q6
             // 
             this.lbl_q6.AutoSize = true;
@@ -106,6 +121,18 @@
             this.groupBox6.TabIndex = 49;
             this.groupBox6.TabStop = false;
             // 
+            // cb_q5
+            // 
+            this.cb_q5.FormattingEnabled = true;
+            this.cb_q5.Items.AddRange(new object[] {
+            "Correct",
+            "1 Error",
+            "More Than 1 Error"});
+            this.cb_q5.Location = new System.Drawing.Point(308, 11);
+            this.cb_q5.Name = "cb_q5";
+            this.cb_q5.Size = new System.Drawing.Size(295, 22);
+            this.cb_q5.TabIndex = 2;
+            // 
             // lbl_q5
             // 
             this.lbl_q5.AutoSize = true;
@@ -126,6 +153,18 @@
             this.groupBox5.Size = new System.Drawing.Size(623, 36);
             this.groupBox5.TabIndex = 48;
             this.groupBox5.TabStop = false;
+            // 
+            // cb_q4
+            // 
+            this.cb_q4.FormattingEnabled = true;
+            this.cb_q4.Items.AddRange(new object[] {
+            "Correct",
+            "1 Error",
+            "More Than 1 Error"});
+            this.cb_q4.Location = new System.Drawing.Point(308, 11);
+            this.cb_q4.Name = "cb_q4";
+            this.cb_q4.Size = new System.Drawing.Size(295, 22);
+            this.cb_q4.TabIndex = 1;
             // 
             // lbl_q4
             // 
@@ -149,6 +188,17 @@
             this.groupBox4.TabIndex = 47;
             this.groupBox4.TabStop = false;
             // 
+            // rb4_incorrect
+            // 
+            this.rb4_incorrect.AutoSize = true;
+            this.rb4_incorrect.Location = new System.Drawing.Point(535, 11);
+            this.rb4_incorrect.Name = "rb4_incorrect";
+            this.rb4_incorrect.Size = new System.Drawing.Size(68, 18);
+            this.rb4_incorrect.TabIndex = 6;
+            this.rb4_incorrect.TabStop = true;
+            this.rb4_incorrect.Text = "Incorrect";
+            this.rb4_incorrect.UseVisualStyleBackColor = true;
+            // 
             // lbl_q3
             // 
             this.lbl_q3.AutoSize = true;
@@ -158,6 +208,17 @@
             this.lbl_q3.Size = new System.Drawing.Size(107, 14);
             this.lbl_q3.TabIndex = 0;
             this.lbl_q3.Text = "3. What Time is it?";
+            // 
+            // rb3_correct
+            // 
+            this.rb3_correct.AutoSize = true;
+            this.rb3_correct.Location = new System.Drawing.Point(308, 12);
+            this.rb3_correct.Name = "rb3_correct";
+            this.rb3_correct.Size = new System.Drawing.Size(138, 18);
+            this.rb3_correct.TabIndex = 5;
+            this.rb3_correct.TabStop = true;
+            this.rb3_correct.Text = "Correct (within 60mins)";
+            this.rb3_correct.UseVisualStyleBackColor = true;
             // 
             // groupBox3
             // 
@@ -203,6 +264,17 @@
             this.groupBox2.TabIndex = 45;
             this.groupBox2.TabStop = false;
             // 
+            // rb2_incorrect
+            // 
+            this.rb2_incorrect.AutoSize = true;
+            this.rb2_incorrect.Location = new System.Drawing.Point(535, 11);
+            this.rb2_incorrect.Name = "rb2_incorrect";
+            this.rb2_incorrect.Size = new System.Drawing.Size(68, 18);
+            this.rb2_incorrect.TabIndex = 4;
+            this.rb2_incorrect.TabStop = true;
+            this.rb2_incorrect.Text = "Incorrect";
+            this.rb2_incorrect.UseVisualStyleBackColor = true;
+            // 
             // lbl_q2
             // 
             this.lbl_q2.AutoSize = true;
@@ -212,6 +284,17 @@
             this.lbl_q2.Size = new System.Drawing.Size(114, 14);
             this.lbl_q2.TabIndex = 0;
             this.lbl_q2.Text = "2. What Month is it?";
+            // 
+            // rb2_correct
+            // 
+            this.rb2_correct.AutoSize = true;
+            this.rb2_correct.Location = new System.Drawing.Point(308, 11);
+            this.rb2_correct.Name = "rb2_correct";
+            this.rb2_correct.Size = new System.Drawing.Size(61, 18);
+            this.rb2_correct.TabIndex = 3;
+            this.rb2_correct.TabStop = true;
+            this.rb2_correct.Text = "Correct";
+            this.rb2_correct.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
@@ -224,6 +307,28 @@
             this.groupBox1.Size = new System.Drawing.Size(623, 36);
             this.groupBox1.TabIndex = 44;
             this.groupBox1.TabStop = false;
+            // 
+            // rb1_incorrect
+            // 
+            this.rb1_incorrect.AutoSize = true;
+            this.rb1_incorrect.Location = new System.Drawing.Point(535, 11);
+            this.rb1_incorrect.Name = "rb1_incorrect";
+            this.rb1_incorrect.Size = new System.Drawing.Size(68, 18);
+            this.rb1_incorrect.TabIndex = 2;
+            this.rb1_incorrect.TabStop = true;
+            this.rb1_incorrect.Text = "Incorrect";
+            this.rb1_incorrect.UseVisualStyleBackColor = true;
+            // 
+            // rB1_correct
+            // 
+            this.rB1_correct.AutoSize = true;
+            this.rB1_correct.Location = new System.Drawing.Point(308, 11);
+            this.rB1_correct.Name = "rB1_correct";
+            this.rB1_correct.Size = new System.Drawing.Size(61, 18);
+            this.rB1_correct.TabIndex = 1;
+            this.rB1_correct.TabStop = true;
+            this.rB1_correct.Text = "Correct";
+            this.rB1_correct.UseVisualStyleBackColor = true;
             // 
             // lbl_q1
             // 
@@ -255,111 +360,7 @@
             this.btn_submit.TabIndex = 41;
             this.btn_submit.Text = "Submit";
             this.btn_submit.UseVisualStyleBackColor = true;
-            // 
-            // rB1_correct
-            // 
-            this.rB1_correct.AutoSize = true;
-            this.rB1_correct.Location = new System.Drawing.Point(308, 11);
-            this.rB1_correct.Name = "rB1_correct";
-            this.rB1_correct.Size = new System.Drawing.Size(61, 18);
-            this.rB1_correct.TabIndex = 1;
-            this.rB1_correct.TabStop = true;
-            this.rB1_correct.Text = "Correct";
-            this.rB1_correct.UseVisualStyleBackColor = true;
-            // 
-            // rb1_incorrect
-            // 
-            this.rb1_incorrect.AutoSize = true;
-            this.rb1_incorrect.Location = new System.Drawing.Point(535, 11);
-            this.rb1_incorrect.Name = "rb1_incorrect";
-            this.rb1_incorrect.Size = new System.Drawing.Size(68, 18);
-            this.rb1_incorrect.TabIndex = 2;
-            this.rb1_incorrect.TabStop = true;
-            this.rb1_incorrect.Text = "Incorrect";
-            this.rb1_incorrect.UseVisualStyleBackColor = true;
-            // 
-            // rb2_incorrect
-            // 
-            this.rb2_incorrect.AutoSize = true;
-            this.rb2_incorrect.Location = new System.Drawing.Point(535, 11);
-            this.rb2_incorrect.Name = "rb2_incorrect";
-            this.rb2_incorrect.Size = new System.Drawing.Size(68, 18);
-            this.rb2_incorrect.TabIndex = 4;
-            this.rb2_incorrect.TabStop = true;
-            this.rb2_incorrect.Text = "Incorrect";
-            this.rb2_incorrect.UseVisualStyleBackColor = true;
-            // 
-            // rb2_correct
-            // 
-            this.rb2_correct.AutoSize = true;
-            this.rb2_correct.Location = new System.Drawing.Point(308, 11);
-            this.rb2_correct.Name = "rb2_correct";
-            this.rb2_correct.Size = new System.Drawing.Size(61, 18);
-            this.rb2_correct.TabIndex = 3;
-            this.rb2_correct.TabStop = true;
-            this.rb2_correct.Text = "Correct";
-            this.rb2_correct.UseVisualStyleBackColor = true;
-            // 
-            // rb4_incorrect
-            // 
-            this.rb4_incorrect.AutoSize = true;
-            this.rb4_incorrect.Location = new System.Drawing.Point(535, 11);
-            this.rb4_incorrect.Name = "rb4_incorrect";
-            this.rb4_incorrect.Size = new System.Drawing.Size(68, 18);
-            this.rb4_incorrect.TabIndex = 6;
-            this.rb4_incorrect.TabStop = true;
-            this.rb4_incorrect.Text = "Incorrect";
-            this.rb4_incorrect.UseVisualStyleBackColor = true;
-            // 
-            // rb3_correct
-            // 
-            this.rb3_correct.AutoSize = true;
-            this.rb3_correct.Location = new System.Drawing.Point(308, 12);
-            this.rb3_correct.Name = "rb3_correct";
-            this.rb3_correct.Size = new System.Drawing.Size(138, 18);
-            this.rb3_correct.TabIndex = 5;
-            this.rb3_correct.TabStop = true;
-            this.rb3_correct.Text = "Correct (within 60mins)";
-            this.rb3_correct.UseVisualStyleBackColor = true;
-            // 
-            // cb_q4
-            // 
-            this.cb_q4.FormattingEnabled = true;
-            this.cb_q4.Items.AddRange(new object[] {
-            "Correct",
-            "1 Error",
-            "More Than 1 Error"});
-            this.cb_q4.Location = new System.Drawing.Point(308, 11);
-            this.cb_q4.Name = "cb_q4";
-            this.cb_q4.Size = new System.Drawing.Size(295, 22);
-            this.cb_q4.TabIndex = 1;
-            // 
-            // cb_q5
-            // 
-            this.cb_q5.FormattingEnabled = true;
-            this.cb_q5.Items.AddRange(new object[] {
-            "Correct",
-            "1 Error",
-            "More Than 1 Error"});
-            this.cb_q5.Location = new System.Drawing.Point(308, 11);
-            this.cb_q5.Name = "cb_q5";
-            this.cb_q5.Size = new System.Drawing.Size(295, 22);
-            this.cb_q5.TabIndex = 2;
-            // 
-            // cb_q6
-            // 
-            this.cb_q6.FormattingEnabled = true;
-            this.cb_q6.Items.AddRange(new object[] {
-            "Correct",
-            "1 Error",
-            "2 Errors",
-            "3 Errors",
-            "4 Errors",
-            "All Incorrect"});
-            this.cb_q6.Location = new System.Drawing.Point(308, 17);
-            this.cb_q6.Name = "cb_q6";
-            this.cb_q6.Size = new System.Drawing.Size(295, 22);
-            this.cb_q6.TabIndex = 3;
+            this.btn_submit.Click += new System.EventHandler(this.btn_submit_Click);
             // 
             // test
             // 
@@ -378,6 +379,7 @@
             this.Controls.Add(this.btn_submit);
             this.Name = "test";
             this.Text = "6CIT Test";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.test_FormClosed);
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
             this.groupBox6.ResumeLayout(false);

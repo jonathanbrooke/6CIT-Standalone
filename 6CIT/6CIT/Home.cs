@@ -17,12 +17,27 @@ namespace _6CIT
             InitializeComponent();
         }
 
+        private bool isControlClosingForm;
+
         private void btn_start_Click(object sender, EventArgs e)
         {
             this.Hide();
+            //this.Dispose();
             var test = new test();
             test.Show();
-            
+
+        }
+
+        private void Home_FormClosed(object sender, FormClosedEventArgs e)
+        { 
+                if (!isControlClosingForm)
+                {
+                    Dispose();
+                    Close();
+                    Application.Exit();
+
+                    isControlClosingForm = false;
+                } 
         }
     }
 }
