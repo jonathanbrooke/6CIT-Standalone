@@ -16,5 +16,13 @@ namespace _6CIT
         {
             InitializeComponent();
         }
+
+        private void btn_start_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var test = new test();
+            test.Show();
+            
+        }
     }
 }
