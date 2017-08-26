@@ -18,14 +18,25 @@ namespace _6CIT
         }
 
         private bool isControlClosingForm;
+        public static bool isFullTest = false;
+        public static bool profileStarted = true;
+
 
         private void btn_start_Click(object sender, EventArgs e)
         {
+            isFullTest = false;
             this.Hide();
-            //this.Dispose();
             var test = new test();
             test.Show();
+        }
 
+        private void btn_fulltest_Click(object sender, EventArgs e)
+        {
+            profileStarted = false;
+            isFullTest = true;
+            this.Hide();
+            var profile = new profile();
+            profile.Show();
         }
 
         private void Home_FormClosed(object sender, FormClosedEventArgs e)
@@ -38,6 +49,12 @@ namespace _6CIT
 
                     isControlClosingForm = false;
                 } 
+        }
+
+        private void btn_help_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("6CIT Test - Written by Dr Patrick Brooke\n"
+                + "Software Written By Jonathan Brooke");
         }
     }
 }

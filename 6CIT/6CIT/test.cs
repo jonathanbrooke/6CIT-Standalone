@@ -15,11 +15,30 @@ namespace _6CIT
         public test()
         {
             InitializeComponent();
+            if (Home.isFullTest == false)
+            {
+                btn_back.Hide();
+                btn_back.Enabled = false;
+            }
+            else if (Home.isFullTest == true)
+            {
+                btn_Cancel.Hide();
+                btn_Cancel.Enabled = false;
+            }
         }
 
         //Variables
         private int q1, q2, q3, q4, q5, q6;
         private int score;
+
+        private void btn_back_Click(object sender, EventArgs e)
+        {
+            var newProfile = new profile();
+            newProfile.Show();
+            isControlClosingForm = true;
+            Close();
+        }
+
         private bool isControlClosingForm = false;
 
         private void test_FormClosed(object sender, FormClosedEventArgs e)
@@ -35,6 +54,25 @@ namespace _6CIT
         {
             score = calculate();
             MessageBox.Show("Score = " + score);
+
+            if(Home.isFullTest = true)
+            {
+                //PDF Save Dialog --> Here
+                var newHome = new Home();
+                newHome.Show();
+                isControlClosingForm = true;
+                Close();
+            }
+            else
+            {
+                var newHome = new Home();
+                newHome.Show();
+                isControlClosingForm = true;
+                Close();
+            }
+
+            Home.profileStarted = false;
+            Home.isFullTest = false;
         }
 
         private void btn_Cancel_Click(object sender, EventArgs e)

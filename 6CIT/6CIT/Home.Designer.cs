@@ -33,7 +33,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btn_start = new System.Windows.Forms.Button();
             this.btn_help = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_fulltest = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -50,7 +50,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(20, 102);
+            this.label1.Location = new System.Drawing.Point(71, 125);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(59, 13);
             this.label1.TabIndex = 1;
@@ -59,7 +59,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(20, 147);
+            this.label2.Location = new System.Drawing.Point(71, 170);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 13);
             this.label2.TabIndex = 2;
@@ -67,7 +67,7 @@
             // 
             // btn_start
             // 
-            this.btn_start.Location = new System.Drawing.Point(132, 97);
+            this.btn_start.Location = new System.Drawing.Point(183, 120);
             this.btn_start.Name = "btn_start";
             this.btn_start.Size = new System.Drawing.Size(75, 23);
             this.btn_start.TabIndex = 3;
@@ -77,26 +77,28 @@
             // 
             // btn_help
             // 
-            this.btn_help.Location = new System.Drawing.Point(132, 142);
+            this.btn_help.Location = new System.Drawing.Point(183, 165);
             this.btn_help.Name = "btn_help";
             this.btn_help.Size = new System.Drawing.Size(75, 23);
             this.btn_help.TabIndex = 4;
             this.btn_help.Text = "Help";
             this.btn_help.UseVisualStyleBackColor = true;
+            this.btn_help.Click += new System.EventHandler(this.btn_help_Click);
             // 
-            // button1
+            // btn_fulltest
             // 
-            this.button1.Location = new System.Drawing.Point(132, 52);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Start";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_fulltest.Location = new System.Drawing.Point(183, 75);
+            this.btn_fulltest.Name = "btn_fulltest";
+            this.btn_fulltest.Size = new System.Drawing.Size(75, 23);
+            this.btn_fulltest.TabIndex = 6;
+            this.btn_fulltest.Text = "Start";
+            this.btn_fulltest.UseVisualStyleBackColor = true;
+            this.btn_fulltest.Click += new System.EventHandler(this.btn_fulltest_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(20, 57);
+            this.label3.Location = new System.Drawing.Point(71, 80);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(47, 13);
             this.label3.TabIndex = 5;
@@ -107,7 +109,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(334, 261);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_fulltest);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btn_help);
             this.Controls.Add(this.btn_start);
@@ -129,7 +131,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btn_start;
         private System.Windows.Forms.Button btn_help;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_fulltest;
         private System.Windows.Forms.Label label3;
     }
 }
