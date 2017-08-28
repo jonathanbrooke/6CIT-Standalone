@@ -110,7 +110,6 @@ namespace _6CIT
             }
         }
 
-
         private void test_FormClosed(object sender, FormClosedEventArgs e)
         {
             if (!isControlClosingForm)
@@ -155,7 +154,6 @@ namespace _6CIT
             }
 
         }
-
 
         private void btn_Cancel_Click(object sender, EventArgs e)
         {

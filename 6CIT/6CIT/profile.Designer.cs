@@ -76,7 +76,7 @@
             this.dtp_patient_DOB.Name = "dtp_patient_DOB";
             this.dtp_patient_DOB.Size = new System.Drawing.Size(138, 20);
             this.dtp_patient_DOB.TabIndex = 60;
-            this.dtp_patient_DOB.Value = new System.DateTime(1980, 1, 31, 0, 0, 0, 0);
+            this.dtp_patient_DOB.Value = new System.DateTime(1889, 1, 1, 0, 0, 0, 0);
             // 
             // label15
             // 
