@@ -30,6 +30,8 @@ namespace _6CIT
         //Variables
         private int q1, q2, q3, q4, q5, q6;
         private int score;
+        private bool isControlClosingForm = false;
+
 
         private void btn_back_Click(object sender, EventArgs e)
         {
@@ -39,7 +41,67 @@ namespace _6CIT
             Close();
         }
 
-        private bool isControlClosingForm = false;
+        private void btn_reset_Click(object sender, EventArgs e)
+        {
+            rB1_correct.Checked = false;
+            rb1_incorrect.Checked = false;
+            rb2_correct.Checked = false;
+            rb2_incorrect.Checked = false;
+            rb3_correct.Checked = false;
+            rb4_incorrect.Checked = false;
+            cb_q4.SelectedIndex = 0;
+            cb_q5.SelectedIndex = 0;
+            cb_q6.SelectedIndex = 0;
+        }
+
+        private void rB1_correct_CheckedChanged(object sender, EventArgs e)
+        {
+            if(rB1_correct.Checked == true)
+            {
+                rb1_incorrect.Checked = false;
+            }
+        }
+
+        private void rb1_incorrect_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rb1_incorrect.Checked == true)
+            {
+                rB1_correct.Checked = false;
+            }
+        }
+
+        private void rb2_correct_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rb2_correct.Checked == true)
+            {
+                rb2_incorrect.Checked = false;
+            }
+        }
+
+        private void rb2_incorrect_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rb2_incorrect.Checked == true)
+            {
+                rb2_correct.Checked = false;
+            }
+        }
+
+        private void rb3_correct_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rb3_correct.Checked == true)
+            {
+                rb4_incorrect.Checked = false;
+            }
+        }
+
+        private void rb4_incorrect_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rb4_incorrect.Checked == true)
+            {
+                rb3_correct.Checked = false;
+            }
+        }
+
 
         private void test_FormClosed(object sender, FormClosedEventArgs e)
         {
@@ -52,27 +114,36 @@ namespace _6CIT
 
         private void btn_submit_Click(object sender, EventArgs e)
         {
-            score = calculate();
-            MessageBox.Show("Score = " + score);
-
-            if(Home.isFullTest = true)
-            {
-                //PDF Save Dialog --> Here
-                var newHome = new Home();
-                newHome.Show();
-                isControlClosingForm = true;
-                Close();
-            }
+            if(checkQ1Filled() == false){MessageBox.Show("Please Fill In Question 1");}
+            else if(checkQ2Filled() == false){MessageBox.Show("Please Fill In Question 2");}
+            else if (checkQ3Filled() == false){MessageBox.Show("Please Fill In Question 3");}
+            else if (checkQ4Filled() == false){MessageBox.Show("Please Fill In Question 4");}
+            else if (checkQ5Filled() == false){MessageBox.Show("Please Fill In Question 5");}
+            else if (checkQ6Filled() == false){MessageBox.Show("Please Fill In Question 6");}
             else
             {
-                var newHome = new Home();
-                newHome.Show();
-                isControlClosingForm = true;
-                Close();
-            }
+                score = calculate();
+                MessageBox.Show("Score = " + score);
 
-            Home.profileStarted = false;
-            Home.isFullTest = false;
+                if (Home.isFullTest == true)
+                {
+                    //PDF Save Dialog --> Here
+                    var newHome = new Home();
+                    newHome.Show();
+                    isControlClosingForm = true;
+                    Close();
+                }
+                else
+                {
+                    var newHome = new Home();
+                    newHome.Show();
+                    isControlClosingForm = true;
+                    Close();
+                }
+
+                Home.profileStarted = false;
+                Home.isFullTest = false;
+            }
         }
 
         private void btn_Cancel_Click(object sender, EventArgs e)
@@ -160,6 +231,78 @@ namespace _6CIT
 
             //
             return score;
+        }
+
+        private bool checkQ1Filled()
+        {
+            bool allAnsFilled = true;
+
+            if(rB1_correct.Checked == false && rb1_incorrect.Checked == false)
+            {
+                allAnsFilled = false;
+            }
+
+            return allAnsFilled;
+        }
+
+        private bool checkQ2Filled()
+        {
+            bool allAnsFilled = true;
+
+            if (rb2_correct.Checked == false && rb2_incorrect.Checked == false)
+            {
+                allAnsFilled = false;
+            }
+
+            return allAnsFilled;
+        }
+
+        private bool checkQ3Filled()
+        {
+            bool allAnsFilled = true;
+
+            if (rb3_correct.Checked == false && rb4_incorrect.Checked == false)
+            {
+                allAnsFilled = false;
+            }
+
+            return allAnsFilled;
+        }
+
+        private bool checkQ4Filled()
+        {
+            bool allAnsFilled = true;
+
+            if (cb_q4.Text == "")
+            {
+                allAnsFilled = false;
+            }
+
+            return allAnsFilled;
+        }
+
+        private bool checkQ5Filled()
+        {
+            bool allAnsFilled = true;
+
+            if (cb_q5.Text == "")
+            {
+                allAnsFilled = false;
+            }
+
+            return allAnsFilled;
+        }
+
+        private bool checkQ6Filled()
+        {
+            bool allAnsFilled = true;
+
+            if (cb_q6.Text == "")
+            {
+                allAnsFilled = false;
+            }
+
+            return allAnsFilled;
         }
     }
 }

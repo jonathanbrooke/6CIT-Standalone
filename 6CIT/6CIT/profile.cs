@@ -32,6 +32,7 @@ namespace _6CIT
         public static string DOB;
         public static string ID;
         public static string fname, sname, sex, al1, al2, postcode, occupation;
+        public static string notes;
         
 
         private void btn_back_Click(object sender, EventArgs e)
@@ -61,6 +62,7 @@ namespace _6CIT
             al2 = txt_patient_adl2.Text;
             postcode = txt_patient_postcode.Text;
             occupation = txt_patient_occupation.Text;
+            notes = rtb_patient_notes.Text;
         }
 
         private void fill()
@@ -73,6 +75,7 @@ namespace _6CIT
             txt_patient_adl2.Text = al2;
             txt_patient_postcode.Text = postcode;
             txt_patient_occupation.Text = occupation;
+            rtb_patient_notes.Text = notes;
         }
 
         private void clear()
@@ -85,6 +88,7 @@ namespace _6CIT
             txt_patient_adl2.Clear();
             txt_patient_postcode.Clear();
             txt_patient_occupation.Clear();
+            rtb_patient_notes.Clear();
         }
 
         private void btn_begintest_Click(object sender, EventArgs e)

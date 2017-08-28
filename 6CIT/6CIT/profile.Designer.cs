@@ -84,9 +84,9 @@
             this.label15.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(17, 56);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(41, 14);
+            this.label15.Size = new System.Drawing.Size(17, 14);
             this.label15.TabIndex = 78;
-            this.label15.Text = "NHS ID";
+            this.label15.Text = "ID";
             // 
             // txt_patient_id
             // 
@@ -100,7 +100,7 @@
             // rtb_patient_notes
             // 
             this.rtb_patient_notes.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rtb_patient_notes.Location = new System.Drawing.Point(281, 86);
+            this.rtb_patient_notes.Location = new System.Drawing.Point(281, 84);
             this.rtb_patient_notes.MaxLength = 1000;
             this.rtb_patient_notes.Name = "rtb_patient_notes";
             this.rtb_patient_notes.Size = new System.Drawing.Size(223, 265);
@@ -132,9 +132,9 @@
             this.label9.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(278, 52);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(39, 14);
+            this.label9.Size = new System.Drawing.Size(108, 14);
             this.label9.TabIndex = 76;
-            this.label9.Text = "Notes";
+            this.label9.Text = "Pre-Existing Notes";
             // 
             // txt_patient_adl2
             // 
@@ -200,10 +200,10 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(214, 22);
+            this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(187, 18);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(115, 14);
+            this.label5.Size = new System.Drawing.Size(159, 19);
             this.label5.TabIndex = 73;
             this.label5.Text = "Patient Registration";
             // 

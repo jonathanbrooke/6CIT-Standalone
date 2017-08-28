@@ -74,6 +74,7 @@
             this.btn_reset.TabIndex = 42;
             this.btn_reset.Text = "Reset";
             this.btn_reset.UseVisualStyleBackColor = true;
+            this.btn_reset.Click += new System.EventHandler(this.btn_reset_Click);
             // 
             // groupBox7
             // 
@@ -88,8 +89,10 @@
             // 
             // cb_q6
             // 
+            this.cb_q6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cb_q6.FormattingEnabled = true;
             this.cb_q6.Items.AddRange(new object[] {
+            "",
             "Correct",
             "1 Error",
             "2 Errors",
@@ -124,8 +127,10 @@
             // 
             // cb_q5
             // 
+            this.cb_q5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cb_q5.FormattingEnabled = true;
             this.cb_q5.Items.AddRange(new object[] {
+            "",
             "Correct",
             "1 Error",
             "More Than 1 Error"});
@@ -157,8 +162,10 @@
             // 
             // cb_q4
             // 
+            this.cb_q4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cb_q4.FormattingEnabled = true;
             this.cb_q4.Items.AddRange(new object[] {
+            "",
             "Correct",
             "1 Error",
             "More Than 1 Error"});
@@ -199,6 +206,7 @@
             this.rb4_incorrect.TabStop = true;
             this.rb4_incorrect.Text = "Incorrect";
             this.rb4_incorrect.UseVisualStyleBackColor = true;
+            this.rb4_incorrect.CheckedChanged += new System.EventHandler(this.rb4_incorrect_CheckedChanged);
             // 
             // lbl_q3
             // 
@@ -220,6 +228,7 @@
             this.rb3_correct.TabStop = true;
             this.rb3_correct.Text = "Correct (within 60mins)";
             this.rb3_correct.UseVisualStyleBackColor = true;
+            this.rb3_correct.CheckedChanged += new System.EventHandler(this.rb3_correct_CheckedChanged);
             // 
             // groupBox3
             // 
@@ -275,6 +284,7 @@
             this.rb2_incorrect.TabStop = true;
             this.rb2_incorrect.Text = "Incorrect";
             this.rb2_incorrect.UseVisualStyleBackColor = true;
+            this.rb2_incorrect.CheckedChanged += new System.EventHandler(this.rb2_incorrect_CheckedChanged);
             // 
             // lbl_q2
             // 
@@ -296,6 +306,7 @@
             this.rb2_correct.TabStop = true;
             this.rb2_correct.Text = "Correct";
             this.rb2_correct.UseVisualStyleBackColor = true;
+            this.rb2_correct.CheckedChanged += new System.EventHandler(this.rb2_correct_CheckedChanged);
             // 
             // groupBox1
             // 
@@ -319,6 +330,7 @@
             this.rb1_incorrect.TabStop = true;
             this.rb1_incorrect.Text = "Incorrect";
             this.rb1_incorrect.UseVisualStyleBackColor = true;
+            this.rb1_incorrect.CheckedChanged += new System.EventHandler(this.rb1_incorrect_CheckedChanged);
             // 
             // rB1_correct
             // 
@@ -330,6 +342,7 @@
             this.rB1_correct.TabStop = true;
             this.rB1_correct.Text = "Correct";
             this.rB1_correct.UseVisualStyleBackColor = true;
+            this.rB1_correct.CheckedChanged += new System.EventHandler(this.rB1_correct_CheckedChanged);
             // 
             // lbl_q1
             // 
