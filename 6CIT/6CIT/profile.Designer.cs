@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(profile));
             this.cb_patient_sex = new System.Windows.Forms.ComboBox();
             this.dtp_patient_DOB = new System.Windows.Forms.DateTimePicker();
             this.label15 = new System.Windows.Forms.Label();
@@ -312,6 +313,7 @@
             this.Controls.Add(this.txt_patient_adl1);
             this.Controls.Add(this.txt_patient_sname);
             this.Controls.Add(this.txt_patient_fname);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "profile";
             this.Text = "Patient Profile Capture";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.profile_FormClosed);
