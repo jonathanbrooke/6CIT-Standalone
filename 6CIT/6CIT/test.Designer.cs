@@ -68,8 +68,8 @@
             // 
             // btn_reset
             // 
-            this.btn_reset.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_reset.Location = new System.Drawing.Point(454, 322);
+            this.btn_reset.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_reset.Location = new System.Drawing.Point(437, 322);
             this.btn_reset.Name = "btn_reset";
             this.btn_reset.Size = new System.Drawing.Size(87, 25);
             this.btn_reset.TabIndex = 42;
@@ -81,16 +81,17 @@
             // 
             this.groupBox7.Controls.Add(this.cb_q6);
             this.groupBox7.Controls.Add(this.lbl_q6);
-            this.groupBox7.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox7.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox7.Location = new System.Drawing.Point(12, 245);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(623, 55);
+            this.groupBox7.Size = new System.Drawing.Size(622, 55);
             this.groupBox7.TabIndex = 50;
             this.groupBox7.TabStop = false;
             // 
             // cb_q6
             // 
             this.cb_q6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cb_q6.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cb_q6.FormattingEnabled = true;
             this.cb_q6.Items.AddRange(new object[] {
             "",
@@ -102,16 +103,16 @@
             "All Incorrect"});
             this.cb_q6.Location = new System.Drawing.Point(308, 17);
             this.cb_q6.Name = "cb_q6";
-            this.cb_q6.Size = new System.Drawing.Size(295, 22);
+            this.cb_q6.Size = new System.Drawing.Size(295, 21);
             this.cb_q6.TabIndex = 3;
             // 
             // lbl_q6
             // 
             this.lbl_q6.AutoSize = true;
-            this.lbl_q6.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_q6.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_q6.Location = new System.Drawing.Point(6, 20);
             this.lbl_q6.Name = "lbl_q6";
-            this.lbl_q6.Size = new System.Drawing.Size(286, 14);
+            this.lbl_q6.Size = new System.Drawing.Size(269, 13);
             this.lbl_q6.TabIndex = 0;
             this.lbl_q6.Text = "6. Ask the patient to repeat the name and address ";
             // 
@@ -119,16 +120,17 @@
             // 
             this.groupBox6.Controls.Add(this.cb_q5);
             this.groupBox6.Controls.Add(this.lbl_q5);
-            this.groupBox6.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox6.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox6.Location = new System.Drawing.Point(12, 206);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(623, 36);
+            this.groupBox6.Size = new System.Drawing.Size(622, 36);
             this.groupBox6.TabIndex = 49;
             this.groupBox6.TabStop = false;
             // 
             // cb_q5
             // 
             this.cb_q5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cb_q5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cb_q5.FormattingEnabled = true;
             this.cb_q5.Items.AddRange(new object[] {
             "",
@@ -137,16 +139,16 @@
             "More Than 1 Error"});
             this.cb_q5.Location = new System.Drawing.Point(308, 11);
             this.cb_q5.Name = "cb_q5";
-            this.cb_q5.Size = new System.Drawing.Size(295, 22);
+            this.cb_q5.Size = new System.Drawing.Size(295, 21);
             this.cb_q5.TabIndex = 2;
             // 
             // lbl_q5
             // 
             this.lbl_q5.AutoSize = true;
-            this.lbl_q5.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_q5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_q5.Location = new System.Drawing.Point(6, 14);
             this.lbl_q5.Name = "lbl_q5";
-            this.lbl_q5.Size = new System.Drawing.Size(231, 14);
+            this.lbl_q5.Size = new System.Drawing.Size(217, 13);
             this.lbl_q5.TabIndex = 0;
             this.lbl_q5.Text = "5. Say the months of the year backwards";
             // 
@@ -154,16 +156,17 @@
             // 
             this.groupBox5.Controls.Add(this.cb_q4);
             this.groupBox5.Controls.Add(this.lbl_q4);
-            this.groupBox5.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox5.Location = new System.Drawing.Point(12, 168);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(623, 36);
+            this.groupBox5.Size = new System.Drawing.Size(622, 36);
             this.groupBox5.TabIndex = 48;
             this.groupBox5.TabStop = false;
             // 
             // cb_q4
             // 
             this.cb_q4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cb_q4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cb_q4.FormattingEnabled = true;
             this.cb_q4.Items.AddRange(new object[] {
             "",
@@ -172,16 +175,16 @@
             "More Than 1 Error"});
             this.cb_q4.Location = new System.Drawing.Point(308, 11);
             this.cb_q4.Name = "cb_q4";
-            this.cb_q4.Size = new System.Drawing.Size(295, 22);
+            this.cb_q4.Size = new System.Drawing.Size(295, 21);
             this.cb_q4.TabIndex = 1;
             // 
             // lbl_q4
             // 
             this.lbl_q4.AutoSize = true;
-            this.lbl_q4.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_q4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_q4.Location = new System.Drawing.Point(6, 14);
             this.lbl_q4.Name = "lbl_q4";
-            this.lbl_q4.Size = new System.Drawing.Size(177, 14);
+            this.lbl_q4.Size = new System.Drawing.Size(168, 13);
             this.lbl_q4.TabIndex = 0;
             this.lbl_q4.Text = "4. Count backwards from 20 - 1";
             // 
@@ -190,19 +193,20 @@
             this.groupBox4.Controls.Add(this.rb4_incorrect);
             this.groupBox4.Controls.Add(this.lbl_q3);
             this.groupBox4.Controls.Add(this.rb3_correct);
-            this.groupBox4.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.Location = new System.Drawing.Point(12, 129);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(623, 36);
+            this.groupBox4.Size = new System.Drawing.Size(622, 36);
             this.groupBox4.TabIndex = 47;
             this.groupBox4.TabStop = false;
             // 
             // rb4_incorrect
             // 
             this.rb4_incorrect.AutoSize = true;
+            this.rb4_incorrect.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rb4_incorrect.Location = new System.Drawing.Point(535, 11);
             this.rb4_incorrect.Name = "rb4_incorrect";
-            this.rb4_incorrect.Size = new System.Drawing.Size(68, 18);
+            this.rb4_incorrect.Size = new System.Drawing.Size(70, 17);
             this.rb4_incorrect.TabIndex = 6;
             this.rb4_incorrect.TabStop = true;
             this.rb4_incorrect.Text = "Incorrect";
@@ -212,19 +216,20 @@
             // lbl_q3
             // 
             this.lbl_q3.AutoSize = true;
-            this.lbl_q3.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_q3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_q3.Location = new System.Drawing.Point(6, 13);
             this.lbl_q3.Name = "lbl_q3";
-            this.lbl_q3.Size = new System.Drawing.Size(107, 14);
+            this.lbl_q3.Size = new System.Drawing.Size(101, 13);
             this.lbl_q3.TabIndex = 0;
             this.lbl_q3.Text = "3. What Time is it?";
             // 
             // rb3_correct
             // 
             this.rb3_correct.AutoSize = true;
+            this.rb3_correct.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rb3_correct.Location = new System.Drawing.Point(308, 12);
             this.rb3_correct.Name = "rb3_correct";
-            this.rb3_correct.Size = new System.Drawing.Size(138, 18);
+            this.rb3_correct.Size = new System.Drawing.Size(146, 17);
             this.rb3_correct.TabIndex = 5;
             this.rb3_correct.TabStop = true;
             this.rb3_correct.Text = "Correct (within 60mins)";
@@ -235,20 +240,20 @@
             // 
             this.groupBox3.Controls.Add(this.txt_memory);
             this.groupBox3.Controls.Add(this.lbl_memory);
-            this.groupBox3.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(12, 90);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(623, 36);
+            this.groupBox3.Size = new System.Drawing.Size(622, 36);
             this.groupBox3.TabIndex = 46;
             this.groupBox3.TabStop = false;
             // 
             // txt_memory
             // 
             this.txt_memory.Enabled = false;
-            this.txt_memory.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_memory.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_memory.Location = new System.Drawing.Point(308, 10);
             this.txt_memory.Name = "txt_memory";
-            this.txt_memory.Size = new System.Drawing.Size(295, 20);
+            this.txt_memory.Size = new System.Drawing.Size(295, 22);
             this.txt_memory.TabIndex = 20;
             this.txt_memory.Text = "John Brown / 42 / West Street / Bedford";
             this.txt_memory.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -256,10 +261,10 @@
             // lbl_memory
             // 
             this.lbl_memory.AutoSize = true;
-            this.lbl_memory.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_memory.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_memory.Location = new System.Drawing.Point(6, 14);
             this.lbl_memory.Name = "lbl_memory";
-            this.lbl_memory.Size = new System.Drawing.Size(193, 14);
+            this.lbl_memory.Size = new System.Drawing.Size(179, 13);
             this.lbl_memory.TabIndex = 0;
             this.lbl_memory.Text = "Remember the following address";
             // 
@@ -268,19 +273,20 @@
             this.groupBox2.Controls.Add(this.rb2_incorrect);
             this.groupBox2.Controls.Add(this.lbl_q2);
             this.groupBox2.Controls.Add(this.rb2_correct);
-            this.groupBox2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(12, 51);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(623, 36);
+            this.groupBox2.Size = new System.Drawing.Size(622, 36);
             this.groupBox2.TabIndex = 45;
             this.groupBox2.TabStop = false;
             // 
             // rb2_incorrect
             // 
             this.rb2_incorrect.AutoSize = true;
+            this.rb2_incorrect.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rb2_incorrect.Location = new System.Drawing.Point(535, 11);
             this.rb2_incorrect.Name = "rb2_incorrect";
-            this.rb2_incorrect.Size = new System.Drawing.Size(68, 18);
+            this.rb2_incorrect.Size = new System.Drawing.Size(70, 17);
             this.rb2_incorrect.TabIndex = 4;
             this.rb2_incorrect.TabStop = true;
             this.rb2_incorrect.Text = "Incorrect";
@@ -290,19 +296,20 @@
             // lbl_q2
             // 
             this.lbl_q2.AutoSize = true;
-            this.lbl_q2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_q2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_q2.Location = new System.Drawing.Point(6, 13);
             this.lbl_q2.Name = "lbl_q2";
-            this.lbl_q2.Size = new System.Drawing.Size(114, 14);
+            this.lbl_q2.Size = new System.Drawing.Size(112, 13);
             this.lbl_q2.TabIndex = 0;
             this.lbl_q2.Text = "2. What Month is it?";
             // 
             // rb2_correct
             // 
             this.rb2_correct.AutoSize = true;
+            this.rb2_correct.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rb2_correct.Location = new System.Drawing.Point(308, 11);
             this.rb2_correct.Name = "rb2_correct";
-            this.rb2_correct.Size = new System.Drawing.Size(61, 18);
+            this.rb2_correct.Size = new System.Drawing.Size(62, 17);
             this.rb2_correct.TabIndex = 3;
             this.rb2_correct.TabStop = true;
             this.rb2_correct.Text = "Correct";
@@ -314,19 +321,20 @@
             this.groupBox1.Controls.Add(this.rb1_incorrect);
             this.groupBox1.Controls.Add(this.rB1_correct);
             this.groupBox1.Controls.Add(this.lbl_q1);
-            this.groupBox1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(623, 36);
+            this.groupBox1.Size = new System.Drawing.Size(622, 36);
             this.groupBox1.TabIndex = 44;
             this.groupBox1.TabStop = false;
             // 
             // rb1_incorrect
             // 
             this.rb1_incorrect.AutoSize = true;
+            this.rb1_incorrect.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rb1_incorrect.Location = new System.Drawing.Point(535, 11);
             this.rb1_incorrect.Name = "rb1_incorrect";
-            this.rb1_incorrect.Size = new System.Drawing.Size(68, 18);
+            this.rb1_incorrect.Size = new System.Drawing.Size(70, 17);
             this.rb1_incorrect.TabIndex = 2;
             this.rb1_incorrect.TabStop = true;
             this.rb1_incorrect.Text = "Incorrect";
@@ -336,9 +344,10 @@
             // rB1_correct
             // 
             this.rB1_correct.AutoSize = true;
+            this.rB1_correct.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rB1_correct.Location = new System.Drawing.Point(308, 11);
             this.rB1_correct.Name = "rB1_correct";
-            this.rB1_correct.Size = new System.Drawing.Size(61, 18);
+            this.rB1_correct.Size = new System.Drawing.Size(62, 17);
             this.rB1_correct.TabIndex = 1;
             this.rB1_correct.TabStop = true;
             this.rB1_correct.Text = "Correct";
@@ -348,16 +357,16 @@
             // lbl_q1
             // 
             this.lbl_q1.AutoSize = true;
-            this.lbl_q1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_q1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_q1.Location = new System.Drawing.Point(6, 13);
             this.lbl_q1.Name = "lbl_q1";
-            this.lbl_q1.Size = new System.Drawing.Size(103, 14);
+            this.lbl_q1.Size = new System.Drawing.Size(98, 13);
             this.lbl_q1.TabIndex = 0;
             this.lbl_q1.Text = "1. What Year is it?";
             // 
             // btn_Cancel
             // 
-            this.btn_Cancel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Cancel.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Cancel.Location = new System.Drawing.Point(12, 322);
             this.btn_Cancel.Name = "btn_Cancel";
             this.btn_Cancel.Size = new System.Drawing.Size(87, 25);
@@ -368,8 +377,8 @@
             // 
             // btn_submit
             // 
-            this.btn_submit.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_submit.Location = new System.Drawing.Point(548, 322);
+            this.btn_submit.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_submit.Location = new System.Drawing.Point(530, 322);
             this.btn_submit.Name = "btn_submit";
             this.btn_submit.Size = new System.Drawing.Size(87, 25);
             this.btn_submit.TabIndex = 41;
@@ -379,7 +388,7 @@
             // 
             // btn_back
             // 
-            this.btn_back.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_back.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_back.Location = new System.Drawing.Point(12, 322);
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(87, 25);
@@ -392,6 +401,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightGreen;
             this.ClientSize = new System.Drawing.Size(646, 361);
             this.Controls.Add(this.btn_back);
             this.Controls.Add(this.btn_reset);
@@ -406,6 +416,7 @@
             this.Controls.Add(this.btn_submit);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "test";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "6CIT Test";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.test_FormClosed);
             this.groupBox7.ResumeLayout(false);

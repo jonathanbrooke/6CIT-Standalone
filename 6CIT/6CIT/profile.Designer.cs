@@ -58,7 +58,7 @@
             // 
             this.cb_patient_sex.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cb_patient_sex.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cb_patient_sex.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cb_patient_sex.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cb_patient_sex.FormattingEnabled = true;
             this.cb_patient_sex.Items.AddRange(new object[] {
             "Male",
@@ -66,41 +66,41 @@
             this.cb_patient_sex.Location = new System.Drawing.Point(118, 156);
             this.cb_patient_sex.MaxDropDownItems = 2;
             this.cb_patient_sex.Name = "cb_patient_sex";
-            this.cb_patient_sex.Size = new System.Drawing.Size(139, 22);
+            this.cb_patient_sex.Size = new System.Drawing.Size(139, 21);
             this.cb_patient_sex.TabIndex = 59;
             // 
             // dtp_patient_DOB
             // 
-            this.dtp_patient_DOB.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtp_patient_DOB.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtp_patient_DOB.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtp_patient_DOB.Location = new System.Drawing.Point(118, 191);
             this.dtp_patient_DOB.Name = "dtp_patient_DOB";
-            this.dtp_patient_DOB.Size = new System.Drawing.Size(138, 20);
+            this.dtp_patient_DOB.Size = new System.Drawing.Size(138, 22);
             this.dtp_patient_DOB.TabIndex = 60;
             this.dtp_patient_DOB.Value = new System.DateTime(1889, 1, 1, 0, 0, 0, 0);
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(17, 56);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(17, 14);
+            this.label15.Size = new System.Drawing.Size(18, 13);
             this.label15.TabIndex = 78;
             this.label15.Text = "ID";
             // 
             // txt_patient_id
             // 
-            this.txt_patient_id.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_patient_id.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_patient_id.Location = new System.Drawing.Point(118, 52);
             this.txt_patient_id.MaxLength = 10;
             this.txt_patient_id.Name = "txt_patient_id";
-            this.txt_patient_id.Size = new System.Drawing.Size(138, 20);
+            this.txt_patient_id.Size = new System.Drawing.Size(138, 22);
             this.txt_patient_id.TabIndex = 56;
             // 
             // rtb_patient_notes
             // 
-            this.rtb_patient_notes.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rtb_patient_notes.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rtb_patient_notes.Location = new System.Drawing.Point(281, 84);
             this.rtb_patient_notes.MaxLength = 1000;
             this.rtb_patient_notes.Name = "rtb_patient_notes";
@@ -111,74 +111,74 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(17, 335);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(68, 14);
+            this.label11.Size = new System.Drawing.Size(66, 13);
             this.label11.TabIndex = 77;
             this.label11.Text = "Occupation";
             // 
             // txt_patient_postcode
             // 
-            this.txt_patient_postcode.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_patient_postcode.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_patient_postcode.Location = new System.Drawing.Point(118, 296);
             this.txt_patient_postcode.MaxLength = 10;
             this.txt_patient_postcode.Name = "txt_patient_postcode";
-            this.txt_patient_postcode.Size = new System.Drawing.Size(138, 20);
+            this.txt_patient_postcode.Size = new System.Drawing.Size(138, 22);
             this.txt_patient_postcode.TabIndex = 63;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(278, 52);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(108, 14);
+            this.label9.Size = new System.Drawing.Size(103, 13);
             this.label9.TabIndex = 76;
             this.label9.Text = "Pre-Existing Notes";
             // 
             // txt_patient_adl2
             // 
-            this.txt_patient_adl2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_patient_adl2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_patient_adl2.Location = new System.Drawing.Point(118, 261);
             this.txt_patient_adl2.MaxLength = 60;
             this.txt_patient_adl2.Name = "txt_patient_adl2";
-            this.txt_patient_adl2.Size = new System.Drawing.Size(138, 20);
+            this.txt_patient_adl2.Size = new System.Drawing.Size(138, 22);
             this.txt_patient_adl2.TabIndex = 62;
             // 
             // txt_patient_occupation
             // 
-            this.txt_patient_occupation.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_patient_occupation.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_patient_occupation.Location = new System.Drawing.Point(118, 331);
             this.txt_patient_occupation.MaxLength = 30;
             this.txt_patient_occupation.Name = "txt_patient_occupation";
-            this.txt_patient_occupation.Size = new System.Drawing.Size(138, 20);
+            this.txt_patient_occupation.Size = new System.Drawing.Size(138, 22);
             this.txt_patient_occupation.TabIndex = 64;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(17, 265);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(91, 14);
+            this.label7.Size = new System.Drawing.Size(83, 13);
             this.label7.TabIndex = 75;
             this.label7.Text = "Address Line 2";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(17, 300);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(59, 14);
+            this.label6.Size = new System.Drawing.Size(55, 13);
             this.label6.TabIndex = 74;
             this.label6.Text = "Postcode";
             // 
             // btn_back
             // 
             this.btn_back.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btn_back.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_back.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_back.Location = new System.Drawing.Point(20, 389);
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(100, 23);
@@ -189,7 +189,7 @@
             // 
             // btn_begintest
             // 
-            this.btn_begintest.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_begintest.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_begintest.Location = new System.Drawing.Point(404, 389);
             this.btn_begintest.Name = "btn_begintest";
             this.btn_begintest.Size = new System.Drawing.Size(100, 23);
@@ -201,94 +201,95 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(187, 18);
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(184, 18);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(159, 19);
+            this.label5.Size = new System.Drawing.Size(162, 21);
             this.label5.TabIndex = 73;
             this.label5.Text = "Patient Registration";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(17, 125);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(57, 14);
+            this.label10.Size = new System.Drawing.Size(53, 13);
             this.label10.TabIndex = 72;
             this.label10.Text = "Surname";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(17, 230);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(91, 14);
+            this.label4.Size = new System.Drawing.Size(83, 13);
             this.label4.TabIndex = 71;
             this.label4.Text = "Address Line 1";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(17, 195);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(29, 14);
+            this.label3.Size = new System.Drawing.Size(30, 13);
             this.label3.TabIndex = 70;
             this.label3.Text = "DOB";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(17, 160);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(27, 14);
+            this.label2.Size = new System.Drawing.Size(25, 13);
             this.label2.TabIndex = 69;
             this.label2.Text = "Sex";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(17, 90);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 14);
+            this.label1.Size = new System.Drawing.Size(63, 13);
             this.label1.TabIndex = 68;
             this.label1.Text = "First Name";
             // 
             // txt_patient_adl1
             // 
-            this.txt_patient_adl1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_patient_adl1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_patient_adl1.Location = new System.Drawing.Point(118, 226);
             this.txt_patient_adl1.MaxLength = 60;
             this.txt_patient_adl1.Name = "txt_patient_adl1";
-            this.txt_patient_adl1.Size = new System.Drawing.Size(138, 20);
+            this.txt_patient_adl1.Size = new System.Drawing.Size(138, 22);
             this.txt_patient_adl1.TabIndex = 61;
             // 
             // txt_patient_sname
             // 
-            this.txt_patient_sname.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_patient_sname.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_patient_sname.Location = new System.Drawing.Point(118, 121);
             this.txt_patient_sname.MaxLength = 30;
             this.txt_patient_sname.Name = "txt_patient_sname";
-            this.txt_patient_sname.Size = new System.Drawing.Size(138, 20);
+            this.txt_patient_sname.Size = new System.Drawing.Size(138, 22);
             this.txt_patient_sname.TabIndex = 58;
             // 
             // txt_patient_fname
             // 
-            this.txt_patient_fname.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_patient_fname.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_patient_fname.Location = new System.Drawing.Point(118, 86);
             this.txt_patient_fname.MaxLength = 30;
             this.txt_patient_fname.Name = "txt_patient_fname";
-            this.txt_patient_fname.Size = new System.Drawing.Size(138, 20);
+            this.txt_patient_fname.Size = new System.Drawing.Size(138, 22);
             this.txt_patient_fname.TabIndex = 57;
             // 
             // profile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightGreen;
             this.ClientSize = new System.Drawing.Size(521, 435);
             this.Controls.Add(this.cb_patient_sex);
             this.Controls.Add(this.dtp_patient_DOB);
@@ -315,6 +316,7 @@
             this.Controls.Add(this.txt_patient_fname);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "profile";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Patient Profile Capture";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.profile_FormClosed);
             this.ResumeLayout(false);

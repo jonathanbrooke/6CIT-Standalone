@@ -134,6 +134,8 @@ namespace _6CIT
 
                 if (Home.isFullTest == true)
                 {
+                    MessageBox.Show("Quick Test Complete, Score: " + score
+                        + "\nAdvice: " + calcAdvice(score));
                     createPDF();
                     var newHome = new Home();
                     newHome.Show();
@@ -142,7 +144,9 @@ namespace _6CIT
                 }
                 else
                 {
-                    MessageBox.Show("Quick Test Complete, Score: " + score);
+
+                    MessageBox.Show("Quick Test Complete, Score: " + score 
+                        + "\nAdvice: " + calcAdvice(score));
                     var newHome = new Home();
                     newHome.Show();
                     isControlClosingForm = true;
@@ -330,11 +334,10 @@ namespace _6CIT
             PrimitiveComposer Composer = new PrimitiveComposer(page);
             Composer.SetLineWidth(200);
 
-            /*Image
-            Image image = Image.Get("brain.jpg");
+            //Image
+            Image image = Image.Get("brain100.jpg");
             org.pdfclown.documents.contents.xObjects.XObject imageXObject = image.ToXObject(document);
             Composer.ShowXObject(imageXObject, new PointF(450, 40));
-            Composer.Flush();*/
             Composer.Flush();
 
             //Title
@@ -354,7 +357,7 @@ namespace _6CIT
             Composer.ShowText("Address: " + profile.al1 + " " + profile.al2, new PointF(32, 220));
             Composer.ShowText("Postcode: " + profile.postcode, new PointF(32, 240));
             Composer.ShowText("Occupation: " + profile.occupation, new PointF(32, 260));
-            Composer.ShowText("Test Score: " + score, new PointF(32, 300));
+            Composer.ShowText("Test Score: " + score + " , Advice: " + calcAdvice(score), new PointF(32, 300));
 
 
             //Patient Notes
@@ -386,7 +389,7 @@ namespace _6CIT
 
             //Heading 2
             Composer.SetFont(new StandardType1Font(document, StandardType1Font.FamilyEnum.Helvetica, true, false), 24);
-            Composer.ShowText("6CIT Score: " + score, new PointF(32, 40));
+            Composer.ShowText("6CIT Results ", new PointF(32, 40));
 
             Composer.SetFont(new StandardType1Font(document, StandardType1Font.FamilyEnum.Helvetica, true, false), 12);
             Composer.ShowText("Test Carried out on: " /*+ Clinician Details Input Get*/ + " on: " + date, new PointF(32, 80));
@@ -440,7 +443,7 @@ namespace _6CIT
             Composer.ShowText(six_q6_txt, new PointF(32, 440));
 
             Composer.ShowText("Test Result was:  " + score, new PointF(32, 480));
-            //Composer.ShowText(six_notes, new PointF(32, 500));
+            Composer.ShowText("Advice: " + calcAdvice(score), new PointF(32, 500));
 
             Composer.Flush();
 
@@ -455,6 +458,26 @@ namespace _6CIT
                     MessageBox.Show("File is open somewhere else; Cannot Save to PDF.");
                 }
             }
+        }
+
+        private string calcAdvice(int score)
+        {
+            string advice;
+
+            if(score <= 7)
+            {
+                advice = "Not Significant";
+            }
+            else if(score >7 && score <= 9)
+            {
+                advice = "Probably Significant, Referral is Advised";
+            }
+            else
+            {
+                advice = "Significant - Refer";
+            }
+
+            return advice;
         }
     }
 }

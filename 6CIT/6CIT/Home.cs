@@ -54,7 +54,7 @@ namespace _6CIT
         private void btn_help_Click(object sender, EventArgs e)
         {
             MessageBox.Show("6CIT Test - Written by Dr Patrick Brooke"
-                + "\nSoftware Written By Jonathan Brooke"
+                + "\nSoftware - Written By Jonathan Brooke"
                 + "\n\nQuick Test - 6CIT Test with Immediate Score"
                 + "\nFull Test - 6CIT Test with PDF Output, Requires Patient Data");
         }
