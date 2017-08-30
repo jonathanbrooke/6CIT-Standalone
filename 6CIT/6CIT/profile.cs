@@ -57,7 +57,7 @@ namespace _6CIT
             ID = txt_patient_id.Text;
             fname = txt_patient_fname.Text;
             sname = txt_patient_sname.Text;
-            DOB = Convert.ToString(dtp_patient_DOB.Value);
+            DOB = dtp_patient_DOB.Value.ToShortDateString();
             sex = cb_patient_sex.Text;
             al1 = txt_patient_adl1.Text;
             al2 = txt_patient_adl2.Text;
